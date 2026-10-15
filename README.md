@@ -58,7 +58,7 @@ Note: 'filtered_or_unknown' means no reliable answer (e.g. a timeout); it does n
 ## Installation
 
 ```bash
-git clone https://github.com/<your-username>/PortScope.git
+git clone https://github.com/brrssm/PortScope.git
 cd PortScope
 python -m venv .venv
 # Windows PowerShell: .venv\Scripts\Activate.ps1   |   Linux/macOS: source .venv/bin/activate
