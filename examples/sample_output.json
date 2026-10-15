@@ -1,0 +1,44 @@
+{
+  "target": "127.0.0.1",
+  "ip": "127.0.0.1",
+  "scan_timestamp": "2026-10-15T16:35:25+00:00",
+  "timeout_seconds": 0.5,
+  "duration_seconds": 0.0,
+  "summary": {
+    "open": 1,
+    "closed": 4,
+    "filtered_or_unknown": 0
+  },
+  "results": [
+    {
+      "port": 51931,
+      "status": "closed",
+      "response_time_ms": 0.14,
+      "error": null
+    },
+    {
+      "port": 51932,
+      "status": "closed",
+      "response_time_ms": 0.01,
+      "error": null
+    },
+    {
+      "port": 51933,
+      "status": "open",
+      "response_time_ms": 0.07,
+      "error": null
+    },
+    {
+      "port": 51934,
+      "status": "closed",
+      "response_time_ms": 0.05,
+      "error": null
+    },
+    {
+      "port": 51935,
+      "status": "closed",
+      "response_time_ms": 0.01,
+      "error": null
+    }
+  ]
+}

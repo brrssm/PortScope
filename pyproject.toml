@@ -1,0 +1,26 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "portscope"
+version = "1.0.0"
+description = "A lightweight TCP port scanner for authorized security testing and education."
+readme = "README.md"
+requires-python = ">=3.8"
+license = { text = "MIT" }
+authors = [{ name = "Your Name" }]
+keywords = ["security", "port-scanner", "networking", "education"]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Topic :: Security",
+    "Intended Audience :: Education",
+]
+dependencies = []
+
+[project.scripts]
+portscope = "portscope.cli:main"
+
+[tool.setuptools]
+packages = ["portscope"]

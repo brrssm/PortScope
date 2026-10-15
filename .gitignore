@@ -1,0 +1,29 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+.pytest_cache/
+.coverage
+
+# Virtual environments
+venv/
+.venv/
+env/
+
+# Secrets
+.env
+*.key
+*.pem
+
+# Generated scan reports (the curated example in examples/ is kept)
+reports/
+*.csv
+/*.json
+
+# Windows / editors
+Thumbs.db
+Desktop.ini
+.vscode/
+.idea/
